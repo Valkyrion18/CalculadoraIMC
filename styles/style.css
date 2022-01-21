@@ -1,0 +1,119 @@
+body{
+    background-color: bisque;
+}
+
+.encabezado{
+    background-color: rgb(58, 197, 58);
+    display: flex;
+    width: auto;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.distribucion{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    height: max-content;
+    font-size: 30px;
+}
+
+.bloqueSeleccion{
+    display: flex;
+    justify-content: center;
+}
+
+.etiqueta1{
+    position: relative;
+    top: 30px;
+}
+
+.imagen{
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.radios{
+    position: relative;
+    left: 40px;
+}
+
+.formulario{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+}
+
+.cajones{
+    margin-top: 20px;
+}
+
+.entradas{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.botonC{
+    position: relative;
+    margin-top: 50px;
+    left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.resultadoR, .rangoPI, .cajonResultado{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.resultadoR{
+    background: linear-gradient(90deg, rgb(118, 188, 209), rgb(48, 107, 48), rgb(221, 221, 26),
+                rgb(221, 152, 24), rgb(202, 30, 30));
+                
+    background: linear-gradient(90deg, rgb(6, 78, 10), rgb(19, 27, 146), rgb(58, 6, 78),
+    rgb(19, 27, 146), rgb(58, 6, 78), rgb(19, 27, 146));
+}
+
+.salida{
+    width: 200px;
+    text-align: center;
+    background-color: bisque;
+    border: none;
+    font-size: 50px;
+    font-weight: 10px;
+
+}
+
+.salidaRango{
+    width: 350px;
+   
+}
+
+.salidaPI{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lista{
+    margin-top: 30px;
+    background-color: rgb(223, 219, 215);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.imagenIconos{
+    width: 20px;
+    margin-right: 10px;
+}
